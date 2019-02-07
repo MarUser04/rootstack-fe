@@ -24,21 +24,21 @@ export default class InfoNegocio extends React.Component {
 
 const styles = StyleSheet.create({
   image: {
-    width: 120,
-    height: 100,
+    width: 100,
+    height: 75,
   },
   infoContainer: {
     flex: 2,
     flexDirection: 'column',
   },
   name: {
-    marginTop: 25,
+    marginTop: 10,
     color: '#505676',
-    fontSize: 16,
+    fontSize: 15,
     fontWeight: 'bold',
   },
   info: {
-    marginTop: 10,
+    marginTop: 8,
     color: '#9393b9'
   }
 })

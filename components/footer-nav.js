@@ -8,7 +8,7 @@ export default class FooterNav extends React.Component {
     return (
       <View style={{
         height: 60,
-        borderTopColor: '#d8dbf7',
+        borderTopColor: '#F7F7F7',
         borderTopWidth: 1,
         flexDirection: 'row'
       }}>

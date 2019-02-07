@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, ScrollView } from 'react-native';
+import { StyleSheet, View, ScrollView, StatusBar } from 'react-native';
 import { Font } from 'expo';
 
 import SearchBar from './components/search-bar';
@@ -40,6 +40,7 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1
+    flex: 1,
+    paddingTop: StatusBar.currentHeight
   },
 });

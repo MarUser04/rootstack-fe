@@ -6,7 +6,7 @@ export default class SearchBard extends React.Component {
   render() {
     return (
       <View style={{
-        height: 90
+        height: 80
       }}>
         <View style={styles.container}>
             <TextInput
