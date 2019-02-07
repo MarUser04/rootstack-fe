@@ -1,6 +1,5 @@
 import React from 'react';
 import {StyleSheet, TextInput, View } from 'react-native';
-import { SearchBar } from 'react-native-elements';
 import { Ionicons } from '@expo/vector-icons';
 
 export default class SearchBard extends React.Component {

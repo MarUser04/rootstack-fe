@@ -1,7 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import SearchBar from './components/search-bar';
 import { Font } from 'expo';
+
+//Components
+import SearchBar from './components/search-bar';
+import MainPage from './components/main-page';
 
 export default class App extends React.Component {
 
@@ -22,13 +25,8 @@ export default class App extends React.Component {
         {
           this.state.loading ? (
           <View>
-            <SearchBar></SearchBar>
-            <View style={{
-              backgroundColor: '#ffffff',
-              color: '#9393b9'
-              }}>
-              <Text>Roostack - FE </Text>
-            </View>
+            <SearchBar />
+            <MainPage />
           </View>
           ) : null
         }
