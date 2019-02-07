@@ -12,7 +12,6 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -25,10 +24,17 @@
     "android": {
       "package": "com.roostackFE.myapp",
       "versionCode": 1,
-      "permissions": []
+      "permissions": [],
+      "publishBundlePath": "android\\app\\src\\main\\assets\\shell-app.bundle",
+      "publishManifestPath": "android\\app\\src\\main\\assets\\shell-app-manifest.json"
     },
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "isDetached": false,
+    "detach": {
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.10.5-sdk32.0.0-cfdf42e8-f9b5-4ddd-84fd-2f2aacffe2c1.tar.gz"
+    },
+    "scheme": "exp4a8bb08c54ed446388aa4bc03aee1db5"
   }
 }
