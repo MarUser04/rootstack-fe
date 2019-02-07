@@ -1,7 +1,6 @@
 import React from 'react';
 import {StyleSheet, View, Text } from 'react-native';
 
-//Components
 import InfoNegocio from './info-negocio';
 import HorizontalRule from './horizontal-rule';
 

@@ -1,10 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View, ScrollView } from 'react-native';
 import { Font } from 'expo';
 
-//Components
 import SearchBar from './components/search-bar';
 import MainPage from './components/main-page';
+import FooterNav from './components/footer-nav';
 
 export default class App extends React.Component {
 
@@ -24,9 +24,12 @@ export default class App extends React.Component {
       <View style={styles.container}>
         {
           this.state.loading ? (
-          <View>
-            <SearchBar />
-            <MainPage />
+          <View style={{flex: 1}}>
+            <ScrollView>
+              <SearchBar />
+              <MainPage />
+            </ScrollView>
+            <FooterNav/>
           </View>
           ) : null
         }
@@ -37,6 +40,6 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 1
   },
 });

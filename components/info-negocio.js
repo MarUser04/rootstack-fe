@@ -2,11 +2,7 @@ import React from 'react';
 import {StyleSheet, View, Text, Image } from 'react-native';
 
 export default class InfoNegocio extends React.Component {
-
-  constructor(props){
-    super(props)
-  }
-
+  
   render() {
     return (
       <View style={{
