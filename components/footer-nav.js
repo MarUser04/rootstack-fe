@@ -13,22 +13,22 @@ export default class FooterNav extends React.Component {
         flexDirection: 'row'
       }}>
         <NavOption
-          icon='ios-home' 
+          icon='home' 
           text='HOME'
           active={true}
         />
         <NavOption
-          icon='ios-search' 
+          icon='search1' 
           text='EXPLORE'
           active={false}
         />
-       <NavOption
-          icon='ios-list' 
+        <NavOption
+          icon='bars' 
           text='MY QUEUES'
           active={false}
         />
-       <NavOption
-          icon='ios-person' 
+        <NavOption
+          icon='user' 
           text='PROFILE'
           active={false}
         />
