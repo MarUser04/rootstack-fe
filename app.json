@@ -22,6 +22,11 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "android": {
+      "package": "com.roostackFE.myapp",
+      "versionCode": 1,
+      "permissions": []
+    },
     "ios": {
       "supportsTablet": true
     }
